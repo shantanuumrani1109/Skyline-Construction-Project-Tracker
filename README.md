@@ -2,18 +2,19 @@
 
 ## 🗂️ Project Structure 
 
+```
 📁 **Skyline Construction Project Tracker**  
 ├── 📁 Dataset  
-│   └── Project_Management_Dataset.xlsx  
+    └── Project_Management_Dataset.xlsx  
 ├── 📁 Images  
-│   └── logo.jpg  
+    └── logo.jpg  
 ├── 📁 Project Details  
-│   └── Project Details.pdf  
+    └── Project Details.pdf  
 ├── 📁 Project File  
-│   └── Project.pbix  
+    └── Project.pbix  
 ├── 📄 README.md  
 ├── 📄 LICENSE  
-
+```
 
 ## 🙋‍♂️ Author
 
