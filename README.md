@@ -22,7 +22,19 @@
 
 ## 🧮 DAX Calculations
 
-### ✅ 1. Calculated Column: `Expected Days`
+### 📅 1. Custom Table: 'Calendar'
+
+```
+Calendar = ADDCOLUMNS(CALENDARAUTO(), "Year", YEAR([Date]), "Month", FORMAT([Date], "mmm"), "Month Number", MONTH([Date]))
+```
+**Description:** \
+This DAX formula creates a dynamic calendar table using CALENDARAUTO(), which automatically detects the date range from the data model. It enriches the table with additional columns:
+- Year – Extracts the year from each date.
+- Month – Extracts the short month name (e.g., Jan, Feb).
+- Month Number – Provides the month as a number (1 to 12).
+The calendar table is essential for implementing time intelligence functions such as filtering, grouping, and time-based calculations (YTD, MTD, QTD, etc.).
+
+### ✅ 1. Calculated Column: 'Expected Days'
 
 ```
 Expected Days = DATEDIFF('Dataset'[Start Date], 'Dataset'[Due Date], DAY)
