@@ -83,6 +83,26 @@ Represents the remaining (or incomplete) portion of tasks — a simple complemen
 - Creating progress vs. backlog visuals
 - Adding context to completion KPIs
 
+#### 4. % Not_Started
+
+```
+% Not_Started = DIVIDE(CALCULATE([Total Tasks], 'Dataset'[Comments] = "not Started"), [Total Tasks])
+```
+**📌 Description:** \
+Calculates the percentage of tasks where Comments = "not Started", giving visibility into how much of the project is yet to begin.
+- Helps identify bottlenecks or areas lacking kickoff
+- Useful for resource planning and task delegation
+
+#### 5. R % Not_Started
+
+```
+R % Not_Started = 1.0 - [% Not_Started]
+```
+**📌 Description:** \
+Calculates the complement of not started tasks, i.e., tasks that are either in progress or completed. This is especially helpful for:
+- Visualizing progress vs. pending side-by-side
+- Creating dual indicators (e.g., pie chart: Started vs. Not Started)
+
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
 ## 🙋‍♂️ Author
