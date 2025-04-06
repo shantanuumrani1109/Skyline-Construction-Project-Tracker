@@ -24,7 +24,7 @@
 
 ### 📅 Custom Table: 
 
-### 1. 'Calendar'
+#### 1. 'Calendar'
 
 ```
 Calendar = ADDCOLUMNS(CALENDARAUTO(), "Year", YEAR([Date]), "Month", FORMAT([Date], "mmm"), "Month Number", MONTH([Date]))
@@ -36,9 +36,9 @@ This DAX formula creates a dynamic calendar table using CALENDARAUTO(), which au
 - Month Number – Provides the month as a number (1 to 12).
 The calendar table is essential for implementing time intelligence functions such as filtering, grouping, and time-based calculations (YTD, MTD, QTD, etc.).
 
-### ✅ 1. Calculated Column:
+### ✅ Calculated Column:
 
-### 1. 'Expected Days'
+#### 1. 'Expected Days'
 
 ```
 Expected Days = DATEDIFF('Dataset'[Start Date], 'Dataset'[Due Date], DAY)
