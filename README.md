@@ -72,6 +72,17 @@ Calculates the percentage of tasks with "No Issues" in the Comments column — r
 - Uses CALCULATE to filter only such tasks.
 - Uses DIVIDE to safely handle division by zero.
 
+#### 3. R % Completed
+
+```
+R % Completed = 1.0 - [% Completed]
+```
+**📌 Description:** \
+Represents the remaining (or incomplete) portion of tasks — a simple complement to % Completed. Useful for:
+- Highlighting pending workload
+- Creating progress vs. backlog visuals
+- Adding context to completion KPIs
+
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
 ## 🙋‍♂️ Author
