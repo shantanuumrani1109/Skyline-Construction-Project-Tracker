@@ -36,6 +36,12 @@ This DAX formula creates a dynamic calendar table using CALENDARAUTO(), which au
 - Month Number – Provides the month as a number (1 to 12).
 The calendar table is essential for implementing time intelligence functions such as filtering, grouping, and time-based calculations (YTD, MTD, QTD, etc.).
 
+#### 2. Measures Table
+
+```
+Measures Table = DATATABLE("Name", STRING, {{"Measure Placeholder"}})
+```
+
 ### 📐 Calculated Column:
 
 #### 1. Expected Days
