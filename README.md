@@ -16,6 +16,16 @@
 ├── 📄 LICENSE  
 ```
 
+## 🧮 DAX Calculations
+
+### ✅ 1. Calculated Column: `Expected Days`
+
+```
+Expected Days = DATEDIFF('Dataset'[Start Date], 'Dataset'[Due Date], DAY)
+```
+**Description:** \
+This column calculates the number of days between the Start Date and the Due Date. It helps in understanding the expected duration for tasks, tracking deadlines, and managing service-level agreements (SLAs).
+
 ## 🙋‍♂️ Author
 
 **Shantanu Prashant Umrani**  
