@@ -29,7 +29,7 @@
 ```
 Calendar = ADDCOLUMNS(CALENDARAUTO(), "Year", YEAR([Date]), "Month", FORMAT([Date], "mmm"), "Month Number", MONTH([Date]))
 ```
-** 📌 Description:** \
+**📌 Description:** \
 This DAX formula creates a dynamic calendar table using CALENDARAUTO(), which automatically detects the date range from the data model. It enriches the table with additional columns:
 - Year – Extracts the year from each date.
 - Month – Extracts the short month name (e.g., Jan, Feb).
@@ -43,7 +43,7 @@ The calendar table is essential for implementing time intelligence functions suc
 ```
 Expected Days = DATEDIFF('Dataset'[Start Date], 'Dataset'[Due Date], DAY)
 ```
-** 📌 Description:** \
+**📌 Description:** \
 This column calculates the number of days between the Start Date and the Due Date. It helps in understanding the expected duration for tasks, tracking deadlines, and managing service-level agreements (SLAs).
 
 ### 📏 Measures:
