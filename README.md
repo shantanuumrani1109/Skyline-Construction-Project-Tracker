@@ -103,6 +103,39 @@ Calculates the complement of not started tasks, i.e., tasks that are either in p
 - Visualizing progress vs. pending side-by-side
 - Creating dual indicators (e.g., pie chart: Started vs. Not Started)
 
+#### 6. % Progress
+
+```
+% Progress = DIVIDE(CALCULATE([Total Tasks], 'Dataset'[Comments] = "In Progress"), [Total Tasks])
+```
+**📌 Description:** \
+Calculates the percentage of tasks currently in progress based on the Comments column.
+- Gives a real-time view of work actively being done
+- Complements % Completed and % Not_Started for full project visibility
+- Enables dynamic progress tracking across teams or milestones
+
+#### 7. R % Progress
+
+```
+R % Progress = 1.0 - [% Progress]
+```
+**📌 Description:** \
+Calculates the remaining portion of tasks that are not in progress, offering a complementary view to % Progress.
+- Useful for identifying idle or completed work
+- Can be used in dual-indicator visuals (like progress vs. pending)
+- Helpful for conditional formatting to highlight workflow imbalances
+
+#### 8. Total Completed Tasks
+
+```
+Total Completed Tasks = CALCULATE([Total Tasks], 'Dataset'[Progress %] = 1.0)
+```
+**📌 Description:** \
+Returns the total number of tasks where Progress % is exactly 100% (i.e., fully completed).
+- Great for accurate KPI cards
+- Enables precise comparison between completed vs. pending tasks
+- Useful in time tracking, burndown charts, or milestone analysis
+
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
 ## 🙋‍♂️ Author
