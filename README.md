@@ -36,7 +36,7 @@ This DAX formula creates a dynamic calendar table using CALENDARAUTO(), which au
 - Month Number – Provides the month as a number (1 to 12).
 The calendar table is essential for implementing time intelligence functions such as filtering, grouping, and time-based calculations (YTD, MTD, QTD, etc.).
 
-### ✅ Calculated Column:
+### 📐 Calculated Column:
 
 #### 1. Expected Days
 
@@ -47,6 +47,8 @@ Expected Days = DATEDIFF('Dataset'[Start Date], 'Dataset'[Due Date], DAY)
 This column calculates the number of days between the Start Date and the Due Date. It helps in understanding the expected duration for tasks, tracking deadlines, and managing service-level agreements (SLAs).
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
+
+### 📏 Measures:
 
 ## 🙋‍♂️ Author
 
