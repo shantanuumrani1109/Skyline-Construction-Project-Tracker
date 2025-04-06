@@ -62,6 +62,16 @@ Total Tasks = COUNTROWS(FILTER('Dataset', NOT ISBLANK('Dataset'[Task ID])))
 **📌 Description:** \
 Counts only those tasks where the Task ID is not blank. This avoids inflating the task count due to incomplete or missing entries and provides a more accurate KPI for actual tasks in progress or completed.
 
+#### 2. % Completed
+
+```
+% Completed = DIVIDE(CALCULATE([Total Tasks], 'Dataset'[Comments] = "No Issues"), [Total Tasks])
+```
+**📌 Description:** \
+Calculates the percentage of tasks with "No Issues" in the Comments column — representing completed or issue-free tasks.
+- Uses CALCULATE to filter only such tasks.
+- Uses DIVIDE to safely handle division by zero.
+
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
 ## 🙋‍♂️ Author
