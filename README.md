@@ -3,7 +3,7 @@
 ## 🗂️ Project Structure 
 
 ```
-📁 **Skyline Construction Project Tracker**  
+📁  Skyline Construction Project Tracker 
 ├── 📁 Dataset  
     └── Project_Management_Dataset.xlsx  
 ├── 📁 Images  
