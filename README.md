@@ -24,7 +24,7 @@
 
 ### 📅 Custom Table: 
 
-#### 1. 'Calendar'
+#### 1. Calendar
 
 ```
 Calendar = ADDCOLUMNS(CALENDARAUTO(), "Year", YEAR([Date]), "Month", FORMAT([Date], "mmm"), "Month Number", MONTH([Date]))
@@ -38,7 +38,7 @@ The calendar table is essential for implementing time intelligence functions suc
 
 ### ✅ Calculated Column:
 
-#### 1. 'Expected Days'
+#### 1. Expected Days
 
 ```
 Expected Days = DATEDIFF('Dataset'[Start Date], 'Dataset'[Due Date], DAY)
