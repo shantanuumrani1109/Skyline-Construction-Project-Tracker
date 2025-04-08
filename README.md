@@ -9,7 +9,10 @@
 ├── 📁 Dataset  
     └── Project_Management_Dataset.xlsx  
 ├── 📁 Images  
-    └── logo.jpg  
+    └── logo.jpg
+    └── money-bag.png
+    └── money.png
+    └── salary.png
 ├── 📁 Project Details  
     └── Project Details.pdf  
 ├── 📁 Project File  
