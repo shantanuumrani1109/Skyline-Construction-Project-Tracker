@@ -44,12 +44,28 @@ The calendar table is essential for implementing time intelligence functions suc
 ```
 Task Measures = DATATABLE("Name", STRING, {{"Measure Placeholder"}})
 ```
+**📌 Description:** \
+This DAX formula creates a placeholder table named Task Measures, which acts as a container for storing all task-related DAX measures.
+- DATATABLE creates a static table with a single column Name and one dummy row "Measure Placeholder".
+- The placeholder row can be deleted later; the table's sole purpose is to group related measures like % Completed, % In Progress, % Not Started, etc.
+- Helps maintain clean data modeling and improves readability by organizing all task KPIs in one dedicated table.
+- Useful for dashboards that focus on project tracking, task lifecycle, and performance metrics.
 
 #### 3. Budget Measures
 
 ```
 Budget Measures = DATATABLE("Name", STRING, {{"Measure Placeholder"}})
 ```
+**📌 Description:** \
+This DAX formula sets up a dedicated table called Budget Measures, which is used solely to house budget-related DAX measures.
+- Like the Task Measures table, it uses a dummy row with DATATABLE and column "Name", which can be removed once actual measures are created.
+- It becomes a centralized location for all KPIs related to budget analysis such as:
+  - Total Budget
+  - Amount Spent
+  - Balance
+  - Budget Utilization %
+  - % Remaining Budget
+- Enables clean model organization and intuitive grouping for use in finance dashboards, budget vs actual visuals, and resource planning reports.
 
 ### 📐 Calculated Column:
 
