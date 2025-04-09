@@ -29,6 +29,10 @@
 
 ### <img src="https://img.shields.io/badge/Budget%20Measure-lightgrey?style=for-the-badge&logo=dollar-sign&logoColor=white&labelColor=555555" alt="🧮 DAX Calculations">
 
+<div style="background-color: lightgrey; color: white; padding: 10px; text-align: center; font-size: larger; font-weight: bold;">
+  Budget Measure
+</div>
+
 #### 1. Calendar
 
 ```
