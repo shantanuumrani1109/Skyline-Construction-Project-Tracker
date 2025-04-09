@@ -27,6 +27,11 @@
 
 ### 📅 Custom Table: 
 
+<p align="center">
+  <img src="assets/task_measures_banner.png" alt="📅 Custom Table: " width="100%">
+</p>
+
+
 #### 1. Calendar
 
 ```
