@@ -79,7 +79,7 @@ This column calculates the number of days between the Start Date and the Due Dat
 
 ### 📏 Measures:
 
-<h3><span style="color: #00BFFF;">A. Task Measures:</span></h3>
+![Task Measures](https://img.shields.io/badge/A.%20Task%20Measures-lightblue)
 
 #### 1. Total Tasks
 
