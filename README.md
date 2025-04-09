@@ -4,6 +4,11 @@
 
 ## 🗂️ Repository Structure 
 
+<p align="center">
+  <img src="Images/Repository-Structure.png" alt="🗂️ Repository Structure" width="100%">
+</p>
+
+
 ```
 📁  Skyline Construction Project Tracker 
 ├── 📁 Dataset  
