@@ -28,6 +28,10 @@
 
 ## 🧮 DAX Calculations
 
+<p align="center">
+  <img src="Images/DAX-Calculations.png" alt="🧮 DAX Calculations" width="100%">
+</p>
+
 ### 📅 Custom Table: 
 
 #### 1. Calendar
