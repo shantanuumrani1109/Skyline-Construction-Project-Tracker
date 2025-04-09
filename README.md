@@ -227,7 +227,7 @@ Creates a **control flag** based on budget utilization:
 ```
 % Remaining Budget = 1.0 - [Budget Utilization %]
 ```
-**📌 Description:** \ 
+**📌 Description:** \
 Calculates the **remaining portion of the budget** as a percentage.
 - Complements `Budget Utilization %` for dual-indicator visuals (e.g., donut chart: Spent vs. Remaining).
 - Helps highlight projects with limited funds remaining.
