@@ -79,7 +79,7 @@ This column calculates the number of days between the Start Date and the Due Dat
 
 ### 📏 Measures:
 
-### <h3 style="color:#ADD8E6;"> A. Task Measures: </h3>
+<h3><span style="color: #00BFFF;">A. Task Measures:</span></h3>
 
 #### 1. Total Tasks
 
