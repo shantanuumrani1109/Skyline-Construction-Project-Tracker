@@ -16,7 +16,7 @@
 ├── 📁 Project Details  
     └── Project Details.pdf  
 ├── 📁 Project File  
-    └── Project.pbix  
+    └── Construction Project Control & Performance Analytics.pbix  
 ├── 📄 README.md  
 ├── 📄 LICENSE  
 ```
@@ -78,6 +78,8 @@ Expected Days = DATEDIFF('Dataset'[Start Date], 'Dataset'[Due Date], DAY)
 This column calculates the number of days between the Start Date and the Due Date. It helps in understanding the expected duration for tasks, tracking deadlines, and managing service-level agreements (SLAs).
 
 ### 📏 Measures:
+
+### <h3 style="color:#ADD8E6;"> A. Task Measures: </h3>
 
 #### 1. Total Tasks
 
