@@ -181,7 +181,7 @@ Calculates the **sum of all budgeted amounts** across the dataset. It assumes ea
 - Useful for **high-level budget allocation** cards or visuals.
 - Essential base measure for further comparisons like utilization or remaining balance.
 
-### 2. **Amount Spent**
+#### 2. **Amount Spent**
 
 ```
 Amount Spent = SUM('Dataset'[Amount Spent ($)])
@@ -191,7 +191,7 @@ Sums the actual **expenditure or cost incurred** from the `'Amount Spent ($)'` c
 - Shows how much of the total budget has been utilized.
 - Useful for **burn-down charts**, **actuals tracking**, and performance-to-budget metrics.
 
-### 3. **Balance**
+#### 3. **Balance**
 
 ```
 Balance = [Total Budget] - [Amount Spent]
@@ -201,7 +201,7 @@ Calculates the **remaining budget balance** by subtracting the actual amount spe
 - Indicates how much budget is **left to spend**.
 - Can be used in **forecasting visuals**, budget control indicators, or financial overviews.
 
-### 4. **Budget Utilization %**
+#### 4. **Budget Utilization %**
 
 ```
 Budget Utilization % = DIVIDE([Amount Spent], [Total Budget], 0)
@@ -211,7 +211,7 @@ Measures the **percentage of the total budget that has been used**.
 - Uses `DIVIDE()` to handle division-by-zero gracefully (returns 0 if Total Budget is 0).
 - Helps track **budget efficiency** and determine if spending is within acceptable thresholds.
 
-### 5. **CF Budget** *(Control Flag for Budget)*
+#### 5. **CF Budget** *(Control Flag for Budget)*
 
 ```
 CF Budget = IF([Budget Utilization %] > 0.5, 0, 1)
@@ -222,7 +222,7 @@ Creates a **control flag** based on budget utilization:
 - Returns `0` if more than 50% of the budget is already used.
 - Useful for **conditional formatting**, visual alerts, or filtering **under/over-budget** projects.
 
-### 6. **% Remaining Budget**
+#### 6. **% Remaining Budget**
 
 ```
 % Remaining Budget = 1.0 - [Budget Utilization %]
@@ -232,7 +232,7 @@ Calculates the **remaining portion of the budget** as a percentage.
 - Complements `Budget Utilization %` for dual-indicator visuals (e.g., donut chart: Spent vs. Remaining).
 - Helps highlight projects with limited funds remaining.
 
-### 7. **CF Remaining Budget** *(Control Flag based on Remaining %)*
+#### 7. **CF Remaining Budget** *(Control Flag based on Remaining %)*
 
 ```
 CF Remaining Budget = IF([% Remaining Budget] < 0, 0, IF([% Remaining Budget] < 0.3, 1, 2))
@@ -244,7 +244,7 @@ Returns a **categorical flag** based on the amount of budget left:
 - `2`: More than 30% remaining (safe zone)
 Perfect for use in **traffic light visuals**, risk assessments, or **budget health indicators**.
 
-### 8. **CF Project Name** *(Flag for Project Status)*
+#### 8. **CF Project Name** *(Flag for Project Status)*
 
 ```
 CF Project Name = IF([Balance] > 0, 1, 0)
@@ -255,7 +255,7 @@ Returns a binary flag to indicate whether a project is still **within budget**.
 - `0`: Negative or zero balance (at or over budget)
 Useful for **filtering visuals**, highlighting compliant vs. non-compliant projects.
 
-### 9. **Title**
+#### 9. **Title**
 
 ```
 Title = IF([% Remaining Budget] < 0, "Above Budget", "Remaining Budget")
