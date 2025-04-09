@@ -72,7 +72,7 @@ This DAX formula sets up a dedicated table called Budget Measures, which is used
   - % Remaining Budget
 - Enables clean model organization and intuitive grouping for use in finance dashboards, budget vs actual visuals, and resource planning reports.
 
-### 📐 Calculated Column:
+## 📐 Calculated Column:
 
 #### 1. Expected Days
 
@@ -82,9 +82,9 @@ Expected Days = DATEDIFF('Dataset'[Start Date], 'Dataset'[Due Date], DAY)
 **📌 Description:** \
 This column calculates the number of days between the Start Date and the Due Date. It helps in understanding the expected duration for tasks, tracking deadlines, and managing service-level agreements (SLAs).
 
-### 📏 Measures:
+## 📏 Measures:
 
-![Task Measures](https://img.shields.io/badge/A.%20Task%20Measures-lightblue)
+### A. Task Measures
 
 #### 1. Total Tasks
 
@@ -167,6 +167,8 @@ Returns the total number of tasks where Progress % is exactly 100% (i.e., fully 
 - Great for accurate KPI cards
 - Enables precise comparison between completed vs. pending tasks
 - Useful in time tracking, burndown charts, or milestone analysis
+
+### B. Budget Measures
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
