@@ -412,6 +412,76 @@ Computes the cumulative actual expenditure over time.
   <img src="Images/Row-Level-Security.png" alt="🛡️ Row-Level Security (RLS)" width="100%">
 </p>
 
+---
+
+<p align="center">
+  <img src="Images/Roles.png" alt="🛡️ Roles"/>
+</p>
+
+---
+
+
+The visual shows the **Roles** pane from Power BI Desktop, where seven roles are defined for applying **Row-Level Security (RLS)**. These roles are individually named for specific users, indicating personalized data access restrictions based on the `Assigned To` column.
+
+The roles listed are:
+
+1. **Carlos_Rivera_Role**  
+2. **Dave_Brown_Role**  
+3. **Emma_White_Role**  
+4. **Grace_Allen_Role**  
+5. **John_Miller_Role**  
+6. **Rachel_Green_Role**  
+7. **Sarah_Johnson_Role**
+
+Each role ensures that a user sees only the records assigned to them.
+
+---
+
+### 🔐 **Row-Level Security (RLS) DAX Filters for Each Role:**
+
+Below are the DAX filters applied to each role based on the `'Dataset'[Assigned To]` field:
+
+- **Carlos_Rivera_Role**
+  ```DAX
+  'Dataset'[Assigned To] = "Carlos Rivera"
+  ```
+
+- **Dave_Brown_Role**
+  ```DAX
+  'Dataset'[Assigned To] = "Dave Brown"
+  ```
+
+- **Emma_White_Role**
+  ```DAX
+  'Dataset'[Assigned To] = "Emma White"
+  ```
+
+- **Grace_Allen_Role**
+  ```DAX
+  'Dataset'[Assigned To] = "Grace Allen"
+  ```
+
+- **John_Miller_Role**
+  ```DAX
+  'Dataset'[Assigned To] = "John Miller"
+  ```
+
+- **Rachel_Green_Role**
+  ```DAX
+  'Dataset'[Assigned To] = "Rachel Green"
+  ```
+
+- **Sarah_Johnson_Role**
+  ```DAX
+  'Dataset'[Assigned To] = "Sarah Johnson"
+  ```
+
+---
+
+### ✅ Summary:
+
+Each Power BI role is tightly scoped to a single person, ensuring that users can **only view the data assigned to them**. This is a fundamental use of **Row-Level Security** in business dashboards where data confidentiality and role-based access are critical.
+
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
 <p align="center">
