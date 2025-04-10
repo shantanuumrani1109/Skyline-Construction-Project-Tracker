@@ -532,6 +532,25 @@ This section presents a **comprehensive project dashboard** designed to monitor 
      - **Date**
    - Allows for dynamic views tailored to individual or time-specific performance.
 
+## 2. Budget Page
+
+---
+
+<p align="center">
+  <img src="Images/Budget-Page.png" alt="Budget Page"/>
+</p>
+
+---
+
+## 3. Timeline Page
+
+---
+
+<p align="center">
+  <img src="Images/Timeline-Page.png" alt="Timeline Page"/>
+</p>
+
+---
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
