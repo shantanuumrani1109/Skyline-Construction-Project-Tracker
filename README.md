@@ -542,6 +542,44 @@ This section presents a **comprehensive project dashboard** designed to monitor 
 
 ---
 
+## 💰 Budget Dashboard Overview
+
+This dashboard provides an in-depth financial overview using a variety of visualization tools to track budget allocation, spending, and utilization across projects and tasks.
+
+### 🔹 Components & Chart Types:
+
+1. **KPI Cards (Top Row)**  
+   - Summarize key financial metrics:
+     - **Total Budget**
+     - **Amount Spent**
+     - **Remaining Balance**
+   - Includes a **semi-circular gauge chart** for **Budget Utilization %** and a large numeric indicator for **Remaining Budget Percentage**.
+
+2. **Grouped Bar Chart – Budget vs Amount Spent by Project (Bottom Left)**  
+   - Compares **total budget** and **actual expenditure** across major projects:
+     - Office Tower C, Residential Building A, Shopping Complex B, Warehouse D
+   - Visualizes over- or under-spending, including negative values.
+
+3. **Grouped Bar Chart – Budget vs Amount Spent by Task (Bottom Center)**  
+   - Displays financial allocation and usage per task (e.g., Concrete Pouring, Roofing, Electrical Wiring).
+   - Uses horizontal bars grouped by **Total Budget** and **Amount Spent**.
+
+4. **Line Chart – Budget vs Amount Spent (Top Right)**  
+   - Monthly trend of budget allocation vs. actual spending.
+   - Highlights fluctuations and spending consistency over time.
+
+5. **Area Chart – Cumulative Analysis (Bottom Right)**  
+   - Shows **Cumulative Budget vs Cumulative Amount Spent** throughout the year.
+   - Useful for tracking budget usage trend and forecasting end-of-year financials.
+
+6. **Interactive Filters (Top Right Panel)**  
+   - Filters available for:
+     - **Team Member**
+     - **Date**
+   - Enables customized views based on user-defined parameters.
+
+---
+
 ## 3. Timeline Page
 
 ---
