@@ -492,6 +492,7 @@ Each Power BI role is tightly scoped to a single person, ensuring that users can
     └── Introduction.png
     └── Objective.png
     └── Problem-Statement.png
+    └── Dataset-Description.png
     └── Schema-Diagram.png
     └── Model-View-Schema-Diagram.png
     └── Repository-Structure.png
