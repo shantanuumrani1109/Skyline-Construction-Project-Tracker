@@ -493,9 +493,9 @@ Each Power BI role is tightly scoped to a single person, ensuring that users can
 
 ---
 
-### 📊 Dashboard Overview
+### 📊 Project Details Page Overview
 
-This section presents a **comprehensive project dashboard** designed to monitor and manage task progress, priority, and team performance. The dashboard is built using multiple visual components to deliver insights at a glance.
+This section presents a **comprehensive project page** designed to monitor and manage task progress, priority, and team performance. The page is built using multiple visual components to deliver insights at a glance.
 
 ### 🔹 Components & Chart Types:
 
@@ -542,9 +542,9 @@ This section presents a **comprehensive project dashboard** designed to monitor 
 
 ---
 
-## 💰 Budget Dashboard Overview
+### 💰 Budget Page Overview
 
-This dashboard provides an in-depth financial overview using a variety of visualization tools to track budget allocation, spending, and utilization across projects and tasks.
+This page provides an in-depth financial overview using a variety of visualization tools to track budget allocation, spending, and utilization across projects and tasks.
 
 ### 🔹 Components & Chart Types:
 
@@ -587,6 +587,58 @@ This dashboard provides an in-depth financial overview using a variety of visual
 <p align="center">
   <img src="Images/Timeline-Page.png" alt="Timeline Page"/>
 </p>
+
+---
+
+### 🗓️ Timeline Page Overview
+
+The **Timeline Page** provides a visual representation of project task progress over time using a Gantt chart. This view is especially useful for tracking task assignments, durations, and statuses within individual projects.
+
+---
+
+### 📊 Main Visualization: **Gantt Chart – Project Progress Bar**
+
+- The primary chart in this dashboard is a **Gantt chart**, which lays out tasks along a horizontal timeline.
+- Each task is represented as a colored horizontal bar, corresponding to its **start and end dates**.
+- Tasks are grouped by **Project Name** and clearly show who they are **assigned to**.
+- The chart also includes a **legend** to differentiate between task statuses:
+  - 🔴 Blocked
+  - 🟢 In Progress
+  - ✅ Completed
+  - ⚪ Not Started
+
+---
+
+### 🧾 Supporting Fields (Displayed on Left Panel)
+
+The dataset that drives this Gantt view includes multiple important fields:
+
+- **Task Name** – Specific tasks such as *Roofing*, *Electrical Wiring*, etc.
+- **Assigned To** – Team members responsible for executing the task (e.g., *Carlos Rivera*, *Emma White*).
+- **Project Name** – Identifies the parent project each task belongs to (e.g., *Warehouse D*, *Shopping Complex B*).
+- **Task Status** – Indicates the current state of the task (Blocked, Completed, In Progress, Not Started).
+- **Month / Year** – Represents the scheduled time frame of each task, allowing for chronological grouping and timeline placement.
+
+These fields are reflected visually in the Gantt chart to provide an integrated view of the data.
+
+---
+
+### 🔍 Functionality
+
+While this dashboard does not feature interactive filters in this view, the structured fields (Task Name, Assigned To, etc.) act as categorical anchors, helping users interpret the timeline efficiently.
+
+Horizontal and vertical scroll bars are available to navigate across:
+- Long timelines (day-level granularity across months)
+- Multiple tasks per project
+
+---
+
+### ✅ Ideal Use Cases
+
+- Tracking execution timeline of tasks per project
+- Understanding team member task load over time
+- Quickly identifying delays or bottlenecks via blocked or incomplete tasks
+- Visual communication of project status to stakeholders
 
 ---
 
