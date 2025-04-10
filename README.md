@@ -41,7 +41,9 @@ To address these gaps, there is an immediate need for a robust data-driven visua
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
-## 📂 Dataset Description
+<p align="center">
+  <img src="Images/Dataset-Description.png" alt="📂 Dataset Description" width="100%">
+</p>
 
 This repository contains a structured dataset focused on **project management** within the **construction industry**. The data is formatted as a CSV file and is designed to support various analytical and reporting tasks.
 
