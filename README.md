@@ -42,40 +42,6 @@ To address these gaps, there is an immediate need for a robust data-driven visua
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
 <p align="center">
-  <img src="Images/Repository-Structure.png" alt="🗂️ Repository Structure" width="100%">
-</p>
-
-
-```
-📁  Skyline Construction Project Tracker 
-├── 📁 Dataset  
-    └── Project_Management_Dataset.xlsx  
-├── 📁 Images  
-    └── Introduction.png
-    └── Objective.png
-    └── Problem-Statement.png
-    └── Schema-Diagram.png
-    └── Model-View-Schema-Diagram.png
-    └── Repository-Structure.png
-    └── DAX-Calculations.png
-    └── Row-Level-Security.png
-    └── Roles.png
-    └── Author.png
-    └── logo.jpg
-    └── money-bag.png
-    └── money.png
-    └── salary.png
-├── 📁 Project Details  
-    └── Project Details.pdf  
-├── 📁 Project File  
-    └── Construction Project Control & Performance Analytics.pbix  
-├── 📄 README.md  
-├── 📄 LICENSE  
-```
-
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
-
-<p align="center">
   <img src="Images/Schema-Diagram.png" alt="🧩 Schema Diagram" width="100%">
 </p>
 
@@ -481,6 +447,40 @@ Below are the DAX filters applied to each role based on the `'Dataset'[Assigned 
 ### ✅ Summary:
 
 Each Power BI role is tightly scoped to a single person, ensuring that users can **only view the data assigned to them**. This is a fundamental use of **Row-Level Security** in business dashboards where data confidentiality and role-based access are critical.
+
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
+
+<p align="center">
+  <img src="Images/Repository-Structure.png" alt="🗂️ Repository Structure" width="100%">
+</p>
+
+
+```
+📁  Skyline Construction Project Tracker 
+├── 📁 Dataset  
+    └── Project_Management_Dataset.xlsx  
+├── 📁 Images  
+    └── Introduction.png
+    └── Objective.png
+    └── Problem-Statement.png
+    └── Schema-Diagram.png
+    └── Model-View-Schema-Diagram.png
+    └── Repository-Structure.png
+    └── DAX-Calculations.png
+    └── Row-Level-Security.png
+    └── Roles.png
+    └── Author.png
+    └── logo.jpg
+    └── money-bag.png
+    └── money.png
+    └── salary.png
+├── 📁 Project Details  
+    └── Project Details.pdf  
+├── 📁 Project File  
+    └── Construction Project Control & Performance Analytics.pbix  
+├── 📄 README.md  
+├── 📄 LICENSE  
+```
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
