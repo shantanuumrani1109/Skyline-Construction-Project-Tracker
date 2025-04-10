@@ -52,13 +52,16 @@ To address these gaps, there is an immediate need for a robust data-driven visua
 ├── 📁 Dataset  
     └── Project_Management_Dataset.xlsx  
 ├── 📁 Images  
+    └── Introduction.png
+    └── Objective.png
+    └── Problem Statementr.png
+    └── Repository Structure.png
+    └── DAX Calculations.png
+    └── Author.png
     └── logo.jpg
     └── money-bag.png
     └── money.png
     └── salary.png
-    └── Author.png
-    └── DAX Calculations.png
-    └── Repository Structure.png
 ├── 📁 Project Details  
     └── Project Details.pdf  
 ├── 📁 Project File  
@@ -309,7 +312,7 @@ Generates a **dynamic text label** based on the budget status:
 - Returns `"Remaining Budget"` otherwise.
 Great for **dynamic titles** or **KPI cards** that reflect real-time budget condition.
 
-### C. New Visual Measures
+## 📊 New Visual Measures
 
 #### 1. Cumulative Budget
 
