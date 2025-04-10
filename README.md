@@ -660,10 +660,15 @@ Horizontal and vertical scroll bars are available to navigate across:
     └── Dataset-Description.png
     └── Schema-Diagram.png
     └── Model-View-Schema-Diagram.png
-    └── Repository-Structure.png
     └── DAX-Calculations.png
     └── Row-Level-Security.png
     └── Roles.png
+    └── Report-Images.png
+    └── Project-Details-Page.png
+    └── Budget-Page.png
+    └── Timeline-Page.png
+    └── Repository-Structure.png
+    └── Project-Readings.png
     └── Author.png
     └── logo.jpg
     └── money-bag.png
