@@ -40,7 +40,7 @@
 ```
 Calendar = ADDCOLUMNS(CALENDARAUTO(), "Year", YEAR([Date]), "Month", FORMAT([Date], "mmm"), "Month Number", MONTH([Date]))
 ```
-**📌 Description:** \
+**📌 Description:**
 This DAX formula creates a dynamic calendar table using CALENDARAUTO(), which automatically detects the date range from the data model. It enriches the table with additional columns:
 - Year – Extracts the year from each date.
 - Month – Extracts the short month name (e.g., Jan, Feb).
@@ -52,7 +52,7 @@ The calendar table is essential for implementing time intelligence functions suc
 ```
 Task Measures = DATATABLE("Name", STRING, {{"Measure Placeholder"}})
 ```
-**📌 Description:** \
+**📌 Description:**
 This DAX formula creates a placeholder table named Task Measures, which acts as a container for storing all task-related DAX measures.
 - DATATABLE creates a static table with a single column Name and one dummy row "Measure Placeholder".
 - The placeholder row can be deleted later; the table's sole purpose is to group related measures like % Completed, % In Progress, % Not Started, etc.
@@ -64,7 +64,7 @@ This DAX formula creates a placeholder table named Task Measures, which acts as 
 ```
 Budget Measures = DATATABLE("Name", STRING, {{"Measure Placeholder"}})
 ```
-**📌 Description:** \
+**📌 Description:**
 This DAX formula sets up a dedicated table called Budget Measures, which is used solely to house budget-related DAX measures.
 - Like the Task Measures table, it uses a dummy row with DATATABLE and column "Name", which can be removed once actual measures are created.
 - It becomes a centralized location for all KPIs related to budget analysis such as:
@@ -82,7 +82,7 @@ This DAX formula sets up a dedicated table called Budget Measures, which is used
 ```
 Expected Days = DATEDIFF('Dataset'[Start Date], 'Dataset'[Due Date], DAY)
 ```
-**📌 Description:** \
+**📌 Description:**
 This column calculates the number of days between the Start Date and the Due Date. It helps in understanding the expected duration for tasks, tracking deadlines, and managing service-level agreements (SLAs).
 
 ## 📏 Measures:
@@ -94,7 +94,7 @@ This column calculates the number of days between the Start Date and the Due Dat
 ```
 Total Tasks = COUNTROWS(FILTER('Dataset', NOT ISBLANK('Dataset'[Task ID])))
 ```
-**📌 Description:** \
+**📌 Description:**
 Counts only those tasks where the Task ID is not blank. This avoids inflating the task count due to incomplete or missing entries and provides a more accurate KPI for actual tasks in progress or completed.
 
 #### 2. % Completed
@@ -102,7 +102,7 @@ Counts only those tasks where the Task ID is not blank. This avoids inflating th
 ```
 % Completed = DIVIDE(CALCULATE([Total Tasks], 'Dataset'[Comments] = "No Issues"), [Total Tasks])
 ```
-**📌 Description:** \
+**📌 Description:**
 Calculates the percentage of tasks with "No Issues" in the Comments column — representing completed or issue-free tasks.
 - Uses CALCULATE to filter only such tasks.
 - Uses DIVIDE to safely handle division by zero.
@@ -112,7 +112,7 @@ Calculates the percentage of tasks with "No Issues" in the Comments column — r
 ```
 R % Completed = 1.0 - [% Completed]
 ```
-**📌 Description:** \
+**📌 Description:**
 Represents the remaining (or incomplete) portion of tasks — a simple complement to % Completed. Useful for:
 - Highlighting pending workload
 - Creating progress vs. backlog visuals
@@ -123,7 +123,7 @@ Represents the remaining (or incomplete) portion of tasks — a simple complemen
 ```
 % Not_Started = DIVIDE(CALCULATE([Total Tasks], 'Dataset'[Comments] = "not Started"), [Total Tasks])
 ```
-**📌 Description:** \
+**📌 Description:**
 Calculates the percentage of tasks where Comments = "not Started", giving visibility into how much of the project is yet to begin.
 - Helps identify bottlenecks or areas lacking kickoff
 - Useful for resource planning and task delegation
@@ -133,7 +133,7 @@ Calculates the percentage of tasks where Comments = "not Started", giving visibi
 ```
 R % Not_Started = 1.0 - [% Not_Started]
 ```
-**📌 Description:** \
+**📌 Description:**
 Calculates the complement of not started tasks, i.e., tasks that are either in progress or completed. This is especially helpful for:
 - Visualizing progress vs. pending side-by-side
 - Creating dual indicators (e.g., pie chart: Started vs. Not Started)
@@ -143,7 +143,7 @@ Calculates the complement of not started tasks, i.e., tasks that are either in p
 ```
 % Progress = DIVIDE(CALCULATE([Total Tasks], 'Dataset'[Comments] = "In Progress"), [Total Tasks])
 ```
-**📌 Description:** \
+**📌 Description:**
 Calculates the percentage of tasks currently in progress based on the Comments column.
 - Gives a real-time view of work actively being done
 - Complements % Completed and % Not_Started for full project visibility
@@ -154,7 +154,7 @@ Calculates the percentage of tasks currently in progress based on the Comments c
 ```
 R % Progress = 1.0 - [% Progress]
 ```
-**📌 Description:** \
+**📌 Description:**
 Calculates the remaining portion of tasks that are not in progress, offering a complementary view to % Progress.
 - Useful for identifying idle or completed work
 - Can be used in dual-indicator visuals (like progress vs. pending)
@@ -165,7 +165,7 @@ Calculates the remaining portion of tasks that are not in progress, offering a c
 ```
 Total Completed Tasks = CALCULATE([Total Tasks], 'Dataset'[Progress %] = 1.0)
 ```
-**📌 Description:** \
+**📌 Description:**
 Returns the total number of tasks where Progress % is exactly 100% (i.e., fully completed).
 - Great for accurate KPI cards
 - Enables precise comparison between completed vs. pending tasks
