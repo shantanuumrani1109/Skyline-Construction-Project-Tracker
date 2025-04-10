@@ -2,7 +2,9 @@
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
-### **Introduction**
+<p align="center">
+  <img src="Images/Introduction.png" alt="📘 Introduction" width="100%">
+</p>
 
 In today's fast-paced construction industry, effective project monitoring and financial oversight are vital for ensuring the timely and cost-efficient execution of operations. Skyline Construction is actively advancing its capabilities in data analytics and visualization to meet the dynamic needs of its executive leadership and operations teams. With multiple large-scale projects underway—including residential, commercial, and industrial sites—real-time visibility into task progress and financial performance is paramount.
 
@@ -10,7 +12,9 @@ To support informed decision-making and promote transparency, the organization i
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
-### **Objective**
+<p align="center">
+  <img src="Images/Objective.png" alt="🎯 Objective" width="100%">
+</p>
 
 The primary objective of this initiative is to develop a suite of comprehensive and interactive visual dashboards that:
 
@@ -21,7 +25,9 @@ The primary objective of this initiative is to develop a suite of comprehensive 
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
-### **Problem Statement**
+<p align="center">
+  <img src="Images/Problem-Statement.png" alt="🛠️ Problem Statement" width="100%">
+</p>
 
 Skyline Construction is currently facing challenges in presenting unified, real-time insights on project progress and budget utilization to its executive stakeholders. The existing reporting mechanisms lack the visual clarity and interactive filtering required for in-depth performance analysis and decision-making.
 
