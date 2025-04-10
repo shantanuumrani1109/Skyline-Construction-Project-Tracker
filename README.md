@@ -80,9 +80,11 @@ To address these gaps, there is an immediate need for a robust data-driven visua
 </p>
 
 ---
+
 <p align="center">
   <img src="Images/Model-View-Schema-Diagram.png" alt="🧩 Data Model Diagram" width="700"/>
 </p>
+
 ---
 
 ### **Description of the Data Model**
