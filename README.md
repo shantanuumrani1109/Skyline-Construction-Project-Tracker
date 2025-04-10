@@ -16,6 +16,9 @@
     └── money-bag.png
     └── money.png
     └── salary.png
+    └── Author.png
+    └── DAX Calculations.png
+    └── Repository Structure.png
 ├── 📁 Project Details  
     └── Project Details.pdf  
 ├── 📁 Project File  
@@ -175,7 +178,7 @@ Returns the total number of tasks where Progress % is exactly 100% (i.e., fully 
 ```
 Total Budget = SUM('Dataset'[Budget Amount ($)])
 ```
-**📌 Description:** \  
+**📌 Description:**  
 Calculates the **sum of all budgeted amounts** across the dataset. It assumes each row contains a valid numeric value in the `'Budget Amount ($)'` column.
 - Provides a **cumulative view** of the allocated budget.
 - Useful for **high-level budget allocation** cards or visuals.
