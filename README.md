@@ -53,11 +53,13 @@ To address these gaps, there is an immediate need for a robust data-driven visua
 ├── 📁 Images  
     └── Introduction.png
     └── Objective.png
-    └── Problem Statement.png
-    └── Schema Diagram.png
-    └── Repository Structure.png
-    └── DAX Calculations.png
-    └── Row Level Security (RLS).png
+    └── Problem-Statement.png
+    └── Schema-Diagram.png
+    └── Model-View-Schema-Diagram.png
+    └── Repository-Structure.png
+    └── DAX-Calculations.png
+    └── Row-Level-Security.png
+    └── Roles.png
     └── Author.png
     └── logo.jpg
     └── money-bag.png
@@ -76,6 +78,59 @@ To address these gaps, there is an immediate need for a robust data-driven visua
 <p align="center">
   <img src="Images/Schema-Diagram.png" alt="🧩 Schema Diagram" width="100%">
 </p>
+
+---
+<p align="center">
+  <img src="assets/Model-View-Schema-Diagram.png" alt="🧩 Data Model Diagram" width="700"/>
+</p>
+---
+
+### **Description of the Data Model**
+
+The visual represents a data model built in **Power BI**, designed for tracking project tasks and budgets over time. It consists of four main tables—**Dataset**, **Calendar**, **Task Measures**, and **Budget Measures**—each serving a specific role in data analysis and reporting.
+
+#### **1. Dataset Table**
+The `Dataset` table acts as the **primary fact table** containing detailed records of project tasks and financials. It includes:
+
+- **Task Details**: such as `Task ID`, `Task Name`, `Assigned To`, `Task Status`, `Priority`, and `Comments`.
+- **Project Information**: including `Project Name` and `Site Location`.
+- **Date Fields**: such as `Start Date`, `Due Date`, and `Completion Date` to track timelines.
+- **Progress Tracking**: through fields like `Progress %`, `Expected Days`, and `Materials Used`.
+- **Financial Fields**: such as `Budget Amount ($)` and `Amount Spent ($)` to monitor resource allocation.
+
+#### **2. Calendar Table**
+The `Calendar` table functions as a **date dimension table** to enable time-based analysis. It provides:
+
+- Granular date-related attributes such as `Date`, `Month`, `Month Number`, and `Year`.
+- A **one-to-many relationship** is established from the `Calendar` table to the `Dataset` table using the `Date` field, supporting efficient time intelligence calculations like monthly trends and year-to-date progress.
+
+#### **3. Task Measures Table**
+This table holds **calculated measures (KPIs)** related to task progress and completion. It includes:
+
+- Percentages like `% Completed`, `% Not Started`, and `% Progress`.
+- Relative progress metrics: `R % Completed`, `R % Not Started`, and `R % Progress`.
+- Aggregates: `Total Completed Tasks` and `Total Tasks`.
+
+These measures help in visualizing how tasks are progressing and identifying bottlenecks.
+
+#### **4. Budget Measures Table**
+This table provides **budget-related KPIs** and calculations, helping stakeholders manage financial performance. It includes:
+
+- Financial metrics like `Amount Spent`, `Balance`, and `% Remaining Budget`.
+- Budget utilization fields: `Budget Utilization %`, `CF Budget`, and `CF Remaining Budget`.
+- Other descriptors: `CF Project Name`, `Title`, and `Placeholder`.
+
+These fields enable effective monitoring of budget consumption and balance for various projects.
+
+---
+
+### **Purpose of the Model**
+This data model is structured to support **project management dashboards** in Power BI, allowing users to:
+
+- Track task progress and completion status.
+- Analyze project budgets and expenditures.
+- Generate time-based performance reports using the calendar dimension.
+- Derive insights from both actual values and calculated measures using DAX.
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
