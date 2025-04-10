@@ -41,6 +41,33 @@ To address these gaps, there is an immediate need for a robust data-driven visua
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
+## 📂 Dataset Description
+
+This repository contains a structured dataset focused on **project management** within the **construction industry**. The data is formatted as a CSV file and is designed to support various analytical and reporting tasks.
+
+### 📊 Data Overview
+
+Each row in the dataset represents a specific **task** in a construction project. The data captures essential information including task details, responsible personnel, task status, schedule, resource usage, and budgeting.
+
+### 🧾 Columns Included
+
+The dataset comprises the following columns:
+
+- **Project ID**: Unique identifier for the project  
+- **Project Task ID**: Unique identifier for the task within a project  
+- **Task Name**: Description or title of the task  
+- **Assigned To**: The individual responsible for completing the task  
+- **Task Status**: Current status of the task (e.g., *In Progress*, *Completed*, *Blocked*, *Not Started*)  
+- **Priority**: Task priority level (*High*, *Medium*, *Low*)  
+- **Start Date**: Date when the task was initiated  
+- **Due Date**: Deadline for task completion  
+- **Progress %**: Percentage of task completion  
+- **Materials Used**: List of materials utilized for the task  
+- **Site Location**: Location of the construction site  
+- **Budget Amount**: Financial allocation for the task
+
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
+
 <p align="center">
   <img src="Images/Schema-Diagram.png" alt="🧩 Schema Diagram" width="100%">
 </p>
