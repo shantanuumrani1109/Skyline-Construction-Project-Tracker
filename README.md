@@ -81,7 +81,7 @@ To address these gaps, there is an immediate need for a robust data-driven visua
 
 ---
 <p align="center">
-  <img src="assets/Model-View-Schema-Diagram.png" alt="🧩 Data Model Diagram" width="700"/>
+  <img src="Images/Model-View-Schema-Diagram.png" alt="🧩 Data Model Diagram" width="700"/>
 </p>
 ---
 
