@@ -41,7 +41,6 @@ To address these gaps, there is an immediate need for a robust data-driven visua
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
-
 <p align="center">
   <img src="Images/Repository-Structure.png" alt="🗂️ Repository Structure" width="100%">
 </p>
@@ -54,9 +53,11 @@ To address these gaps, there is an immediate need for a robust data-driven visua
 ├── 📁 Images  
     └── Introduction.png
     └── Objective.png
-    └── Problem Statementr.png
+    └── Problem Statement.png
+    └── Schema Diagram.png
     └── Repository Structure.png
     └── DAX Calculations.png
+    └── Row Level Security (RLS).png
     └── Author.png
     └── logo.jpg
     └── money-bag.png
@@ -69,6 +70,12 @@ To address these gaps, there is an immediate need for a robust data-driven visua
 ├── 📄 README.md  
 ├── 📄 LICENSE  
 ```
+
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
+
+<p align="center">
+  <img src="Images/Schema-Diagram.png" alt="🧩 Schema Diagram" width="100%">
+</p>
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
@@ -341,6 +348,12 @@ Computes the cumulative actual expenditure over time.
 - Tracks spending trends alongside cumulative budget.
 - Useful for identifying overspending periods or forecast gaps.
 - Place it on time-series visuals to compare planned vs. actual spend.
+
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
+
+<p align="center">
+  <img src="Images/Row-Level-Security.png" alt="🛡️ Row-Level Security (RLS)" width="100%">
+</p>
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
