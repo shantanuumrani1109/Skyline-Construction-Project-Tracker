@@ -2,15 +2,13 @@
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
----
-
 ### **Introduction**
 
 In today's fast-paced construction industry, effective project monitoring and financial oversight are vital for ensuring the timely and cost-efficient execution of operations. Skyline Construction is actively advancing its capabilities in data analytics and visualization to meet the dynamic needs of its executive leadership and operations teams. With multiple large-scale projects underway—including residential, commercial, and industrial sites—real-time visibility into task progress and financial performance is paramount.
 
 To support informed decision-making and promote transparency, the organization is leveraging interactive visual dashboards to track task statuses, team productivity, resource allocation, and budget utilization. These dashboards are crucial not only for operational reviews but also for strategic discussions at the executive level, enabling quick identification of bottlenecks and financial risks across the project portfolio.
 
----
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
 ### **Objective**
 
@@ -21,7 +19,7 @@ The primary objective of this initiative is to develop a suite of comprehensive 
 - Provide financial visualizations highlighting Total Budget vs. Amount Spent, Budget Utilization Percentages, and Cumulative Spending Trends.
 - Offer executive-friendly insights into task efficiency, bottleneck identification, and budget performance for better strategic planning and resource allocation.
 
----
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
 ### **Problem Statement**
 
@@ -35,7 +33,7 @@ Key issues identified include:
 
 To address these gaps, there is an immediate need for a robust data-driven visualization system that supports project control and financial governance while enhancing transparency and operational efficiency.
 
----
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
 
 <p align="center">
