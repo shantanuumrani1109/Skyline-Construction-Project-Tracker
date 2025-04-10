@@ -480,6 +480,12 @@ Each Power BI role is tightly scoped to a single person, ensuring that users can
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
 <p align="center">
+  <img src="Images/Report-Images.png" alt="🖼️ Report Images" width="100%">
+</p>
+
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
+
+<p align="center">
   <img src="Images/Repository-Structure.png" alt="🗂️ Repository Structure" width="100%">
 </p>
 
@@ -511,6 +517,12 @@ Each Power BI role is tightly scoped to a single person, ensuring that users can
 ├── 📄 README.md  
 ├── 📄 LICENSE  
 ```
+
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
+
+<p align="center">
+  <img src="Images/Project-Readings.png" alt="📝 Project Readings" width="100%">
+</p>
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
