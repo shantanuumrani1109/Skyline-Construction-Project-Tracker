@@ -118,6 +118,8 @@ This DAX formula sets up a dedicated table called Budget Measures, which is used
   - % Remaining Budget
 - Enables clean model organization and intuitive grouping for use in finance dashboards, budget vs actual visuals, and resource planning reports.
 
+---
+
 ## 📐 Calculated Column:
 
 #### 1. Expected Days
@@ -127,6 +129,8 @@ Expected Days = DATEDIFF('Dataset'[Start Date], 'Dataset'[Due Date], DAY)
 ```
 **📌 Description:**
 This column calculates the number of days between the Start Date and the Due Date. It helps in understanding the expected duration for tasks, tracking deadlines, and managing service-level agreements (SLAs).
+
+---
 
 ## 📏 Measures:
 
@@ -311,6 +315,8 @@ Generates a **dynamic text label** based on the budget status:
 - Returns `"Above Budget"` if remaining percentage is negative.
 - Returns `"Remaining Budget"` otherwise.
 Great for **dynamic titles** or **KPI cards** that reflect real-time budget condition.
+
+---
 
 ## 📊 New Visual Measures
 
