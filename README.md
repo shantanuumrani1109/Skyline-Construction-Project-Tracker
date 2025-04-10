@@ -269,6 +269,30 @@ Generates a **dynamic text label** based on the budget status:
 - Returns `"Remaining Budget"` otherwise.
 Great for **dynamic titles** or **KPI cards** that reflect real-time budget condition.
 
+### C. New Visual Measures
+
+#### 1. Cumulative Budget
+
+```
+Cumulative Budget = RUNNINGSUM([Total Budget])
+```
+**📌 Description:**  
+Calculates the progressive total (running sum) of the Total Budget over time.
+- Helps visualize how the budget accumulates over periods (e.g., months, quarters).
+- Ideal for line charts or area charts on date-based visuals.
+- Requires a proper date axis to work as expected.
+
+#### 2. Cumulative Amount Spent
+
+```
+Cumulative Amount Spent = RUNNINGSUM([Amount Spent])
+```
+**📌 Description:**  
+Computes the cumulative actual expenditure over time.
+- Tracks spending trends alongside cumulative budget.
+- Useful for identifying overspending periods or forecast gaps.
+- Place it on time-series visuals to compare planned vs. actual spend.
+
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
 <p align="center">
