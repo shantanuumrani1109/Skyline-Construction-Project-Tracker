@@ -483,6 +483,56 @@ Each Power BI role is tightly scoped to a single person, ensuring that users can
   <img src="Images/Report-Images.png" alt="🖼️ Report Images" width="100%">
 </p>
 
+## 1. Project Details Page
+
+---
+
+<p align="center">
+  <img src="Images/Project-Details-Page.png" alt="Project Details Page"/>
+</p>
+
+---
+
+### 📊 Dashboard Overview
+
+This section presents a **comprehensive project dashboard** designed to monitor and manage task progress, priority, and team performance. The dashboard is built using multiple visual components to deliver insights at a glance.
+
+### 🔹 Components & Chart Types:
+
+1. **Donut Charts (Top Left)**  
+   - **3 circular progress indicators** displaying the percentage of tasks by status:
+     - **Tasks In Progress** – Green
+     - **Tasks Not Started** – Red
+     - **Tasks Completed** – Green
+   - These provide a quick visual of current task distribution across all projects.
+
+2. **Stacked Bar Charts (Top Right - "Task Breakdown by Project and Status")**  
+   - Shows task status across four projects:
+     - Office Tower C
+     - Residential Building A
+     - Warehouse D
+     - Shopping Complex B
+   - Each bar is segmented by status: *Blocked*, *Completed*, *In Progress*, and *Not Started*.
+   - Helpful for comparing project progress side by side.
+
+3. **Combined Bar & Area Chart (Bottom Left - "Total Monthly Tasks" & "Completed Tasks")**  
+   - **Vertical bars** represent the number of total tasks created each month.
+   - **Overlaid area chart** displays the completed tasks trend over the same period.
+   - Useful for tracking monthly workload and completion efficiency.
+
+4. **Hierarchical Tree / Sankey Diagram (Bottom Right)**  
+   - Visualizes task breakdown in a flow structure:
+     - Starts with **Total Tasks**
+     - Branches into **Projects** → **Priority Levels (High, Medium, Low)** → **Task Status** (Not Started, Blocked, In Progress)
+   - This diagram helps analyze task distribution in a structured, drill-down format.
+
+5. **Interactive Filters (Top Right Panel)**  
+   - Dropdown menus to filter data by:
+     - **Team Member**
+     - **Date**
+   - Allows for dynamic views tailored to individual or time-specific performance.
+
+
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
 <p align="center">
